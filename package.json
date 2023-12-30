@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "gsoc-scrap",
+  "version": "1.0.0",
+  "description": "web scrapper for gsoc website",
+  "main": "main.js",
+  "author": "melsonic",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  },
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "parse5": "^7.1.2"
+  }
+}
